@@ -1,12 +1,28 @@
 # bizapi-java-lib
 
-## gradle
+## gradle (jitpack)
 
 ```java
+repositories {
+	maven { url 'https://jitpack.io' }
+}
 dependencies {
-	implementation 'com.github.jitpack:example:1.1'
+	implementation 'com.github.bizppurio-api:test-javascript-lib:1.0.0'
 }
 ```
+
+## gradle (maven Central)
+
+```java
+repositories {
+	mavenCentral()
+}
+dependencies {
+	implementation 'io.github.bizppurio-api:test-javascript-lib:1.0.0'
+}
+```
+
+
 
 ## Usage
 
